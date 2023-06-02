@@ -9,14 +9,34 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.8",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.2",
+    "@mui/x-date-pickers": "^6.3.1",
     "@types/node": "18.16.3",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",
+    "@types/recharts": "^1.8.24",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "draft-js": "^0.11.7",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.4",
+    "formik": "^2.2.9",
     "next": "13.3.4",
     "react": "18.2.0",
+    "react-date-range": "^1.4.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "react-icons": "^4.8.0",
+    "react-virtualized-auto-sizer": "^1.0.17",
+    "recharts": "^2.6.2",
+    "typescript": "5.0.4",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/draft-js": "^0.11.10",
+    "@types/react-date-range": "^1.4.4"
   }
 }
